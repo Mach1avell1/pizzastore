@@ -1,6 +1,6 @@
 body{
     background-size: cover;
-    background-image: url(/img/background_image_css.jpeg)
+    background-image: url(../img/background_image_css.jpeg)
 }
 body p{
     text-align: center;
