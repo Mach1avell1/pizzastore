@@ -1,0 +1,44 @@
+body{
+    background-size: cover;
+    background-image: url(/img/background_image_css.jpeg)
+}
+body p{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.my-pizzacontainer{
+    float: left;
+    width: 525px;
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 3px 3px;
+    border-radius: 5%;
+}
+.my-pizzacontainer img{
+    margin-left: 40px;
+    opacity: 1;
+}
+.my-pizzacontainer:hover{
+    background-color: rgb(224, 224, 224);
+}
+.my-pizzacontainer input{
+    margin-left: 220px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    text-align: center;
+}
+.button{
+    background-color:rgb(51, 48, 48);
+    color: white;
+    border-radius: 5%;
+    height: 50px;
+    width: 200px;
+}
+footer{
+    clear: both;
+    margin-top: -200px;
+}
